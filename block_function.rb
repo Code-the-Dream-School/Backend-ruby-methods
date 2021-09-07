@@ -1,5 +1,4 @@
 def do_calc
-
     yield(7,9)
 end
 

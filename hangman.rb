@@ -1,5 +1,6 @@
 def hangman(word, guess_arr)
     result = "_"*word.length
+    "___"
     guess_arr.each do |guess_letter|
         #find all the guess_word's occurrances indexes in word
         # use those to exchange the "_" for the acutal guess_letter
@@ -9,4 +10,4 @@ def hangman(word, guess_arr)
     result
 end
 
-puts hangman("bob",["b"])
+puts hangman("alphabet",["a","h"])

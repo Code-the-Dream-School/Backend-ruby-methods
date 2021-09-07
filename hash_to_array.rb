@@ -1,6 +1,7 @@
 
-def hash_to_array(my_hash= {})
-    if my_hash.length == 0
+def hash_to_array(*my_param)
+    my_hash = my_param[0]
+    if my_hash.size == 0
         puts "Well, that's an empty collection.
              \rThat's if for now. Bye :)"
         # this is to exit the function
